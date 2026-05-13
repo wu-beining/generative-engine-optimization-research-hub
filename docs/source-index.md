@@ -15,6 +15,7 @@ This index lists the primary sources used to seed the repository. Prefer these l
 | P007 | SAGEO Arena | https://arxiv.org/abs/2602.12187 | not verified |
 | P008 | Diagnosing and Repairing Citation Failures in GEO | https://arxiv.org/abs/2603.09296 | not verified |
 | P009 | AgenticGEO | https://arxiv.org/abs/2603.20213 | https://github.com/AIcling/agentic_geo |
+| P019 | From Experience to Skill: Multi-Agent GEO via Reusable Strategy Learning | https://arxiv.org/abs/2604.19516 | https://github.com/Wu-beining/MAGEO |
 
 ## Adjacent Papers
 
@@ -46,4 +47,3 @@ This index lists the primary sources used to seed the repository. Prefer these l
 | I003 | ChatGPT merchants / product discovery | https://chatgpt.com/merchants/ | high |
 | I006 | GitHub topic: generative-engine-optimization | https://github.com/topics/generative-engine-optimization | medium |
 | I007 | Awesome Generative Engine Optimization | https://github.com/amplifying-ai/awesome-generative-engine-optimization | medium |
-

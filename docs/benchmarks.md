@@ -11,6 +11,7 @@ GEO 领域的核心问题不是“有没有被 AI 提到”，而是“在哪个
 | AutoGEO datasets | 2025/2026 | Automated GEO training/eval | document + engine preference | GEO score + GEU score | Balances creator visibility and search utility | Engine/domain-specific rules; retrieval-stage risk |
 | CC-GSEO-Bench | 2025 | Source influence | article + query cluster | Exposure, Faithful Credit, Causal Impact, readability, trust | Moves from exposure to influence and credit | LLM judge/simulator assumptions |
 | SAGEO Arena | 2026 | Search-augmented full pipeline | web document in retrieval-reranking-generation pipeline | stage-level visibility and performance | Evaluates realistic search stages | Work in progress; code status needs monitoring |
+| MSME-GEO-Bench / MAGEO | 2026 | Multi-scenario, multi-engine GEO | query + document + engine setting | Twin Branch attribution, DSV-CF semantic visibility and attribution fidelity | Tests reusable strategy learning across engines/scenarios | New benchmark; needs independent reproduction and comparison against SAGEO/CC-GSEO |
 | GEM-Bench | 2025 | Generative engine marketing | ad-injected response | engagement, satisfaction, naturalness, trust, CTR | Monetization-specific benchmark | Paid ad injection should not be conflated with organic GEO |
 
 ## Metric Families
@@ -109,4 +110,3 @@ Minimum reporting checklist:
 - cost per document
 - per-domain variance
 - failure cases
-

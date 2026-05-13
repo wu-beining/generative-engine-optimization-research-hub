@@ -74,6 +74,16 @@
 
 判断：跟踪。适合探索 adaptive GEO 系统，但不能单独作为真实商业效果证据。
 
+### MAGEO: From Experience to Skill
+
+价值：这篇把 GEO 明确重构为“可复用策略学习”问题，而不是每个实例孤立优化。MAGEO 用 Preference Agent、Planner Agent、Editor Agent、Evaluator Agent、层级记忆和 Fidelity Gate 组成闭环，把成功编辑模式蒸馏为可跨任务和跨引擎复用的优化技能。它还引入 Twin Branch Evaluation Protocol、DSV-CF 指标和 MSME-GEO-Bench。
+
+重合：与 AutoGEO 和 AgenticGEO 在自动化 GEO 上重合，但差异点是 strategy reuse / skill learning。AutoGEO 更偏引擎偏好规则抽取和小模型训练；AgenticGEO 更偏策略演化和 critic 规划；MAGEO 更偏多智能体执行层、层级记忆和 attribution fidelity。
+
+边界：新指标和新 benchmark 需要独立复现；如果只看系统复杂度，可能不如 AutoGEO 易部署。
+
+判断：必须跟踪。它是 2026 年 GEO 从“改写策略”走向“经验累积和策略复用”的关键论文。
+
 ## Tier 2: Important Adjacent Work
 
 ### Adversarial SEO for LLMs / Ranking Manipulation / GASLITE
@@ -125,4 +135,3 @@
 价值：给 Search4LLM / LLM4Search 的架构背景。
 
 判断：作为术语和系统背景使用，不直接支撑 GEO 方法论。
-

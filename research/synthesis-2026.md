@@ -43,7 +43,7 @@ AutoGEO, accepted at ICLR 2026, learned generative engine preference rules and u
 
 SAGEO Arena argued that realistic evaluation must include retrieval and reranking before generation. This is probably the most important shift in the field: a document cannot be cited if it never enters the candidate set.
 
-AgentGEO and AgenticGEO then moved toward diagnostic and self-evolving agentic systems. The direction is promising, but it needs cost, robustness, and safety validation.
+AgentGEO and AgenticGEO then moved toward diagnostic and self-evolving agentic systems. MAGEO added another important step: reusable strategy learning, where successful editing patterns are accumulated as engine-specific skills through multi-agent planning, editing, evaluation, memory, and fidelity gates. The direction is promising, but it needs cost, robustness, and safety validation.
 
 ## Core Tensions
 
@@ -111,6 +111,7 @@ Important unresolved questions:
 - How stable are GEO gains across engine updates?
 - Can a method improve citation while preserving retrieval rank and answer utility?
 - How should source influence be measured without relying too heavily on LLM judges?
+- Can reusable GEO skills transfer across engines and scenarios without overfitting to a specific benchmark?
 - How should GEO work in multilingual settings, especially Chinese-English content?
 - What is the boundary between legitimate optimization and manipulative content poisoning?
 - How will product feeds and agentic commerce change organic AI recommendations?
@@ -124,4 +125,3 @@ Better sources -> better retrieval -> better generated answers -> faithful citat
 ```
 
 Anything that boosts visibility while degrading answer quality, factuality, attribution, or retrieval fairness should be treated as a short-term exploit, not a durable strategy.
-

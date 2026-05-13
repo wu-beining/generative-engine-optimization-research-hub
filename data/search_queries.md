@@ -18,6 +18,8 @@ Use these for biweekly or monthly refreshes. Record newly found items in `data/p
 "AgenticGEO"
 "AgentGEO" "citation failures"
 "AutoGEO" "Generative Search Engines"
+"MAGEO" "Generative Engine Optimization"
+"From Experience to Skill" "Generative Engine Optimization"
 ```
 
 ## Adjacent Technical Terms
@@ -50,4 +52,3 @@ site:help.openai.com ChatGPT search OAI-Searchbot
 site:developers.openai.com "OAI-SearchBot"
 site:blog.google "AI Mode" "Search"
 ```
-
