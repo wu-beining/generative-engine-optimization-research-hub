@@ -5,6 +5,10 @@ type: dataset
 authors:
   - name: GEO Research Hub contributors
 year: 2026
+date-released: "2026-05-13"
+repository-code: "https://github.com/Wu-beining/geo-research-hub"
+url: "https://github.com/Wu-beining/geo-research-hub"
+abstract: "A maintained research hub for Generative Engine Optimization, covering papers, benchmarks, GitHub projects, platform notes, taxonomy, and research agenda."
 license: CC-BY-4.0
 keywords:
   - generative engine optimization
@@ -12,4 +16,11 @@ keywords:
   - AI search
   - conversational SEO
   - generative search
-
+preferred-citation:
+  type: dataset
+  title: "GEO Research Hub: A Curated Knowledge Base for Generative Engine Optimization"
+  authors:
+    - name: GEO Research Hub contributors
+  year: 2026
+  repository-code: "https://github.com/Wu-beining/geo-research-hub"
+  url: "https://github.com/Wu-beining/geo-research-hub"
