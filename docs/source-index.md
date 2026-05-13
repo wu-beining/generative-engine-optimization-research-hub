@@ -11,7 +11,7 @@ This index lists the primary sources used to seed the repository. Prefer these l
 | P002-v | C-SEO Bench OpenReview page | https://openreview.net/forum?id=oTeixD3oZO | https://huggingface.co/datasets/parameterlab/c-seo-bench |
 | P003 | AutoGEO / What Generative Search Engines Like | https://openreview.net/forum?id=K8EinVWtUB | https://github.com/cxcscmu/AutoGEO |
 | P003-a | AutoGEO arXiv | https://arxiv.org/abs/2510.11438 | https://huggingface.co/datasets/cx-cmu/GEO-Bench |
-| P019 | From Experience to Skill: Multi-Agent GEO via Reusable Strategy Learning | https://arxiv.org/abs/2604.19516 | https://github.com/Wu-beining/MAGEO |
+| P019 | From Experience to Skill: Multi-Agent GEO via Reusable Strategy Learning | https://arxiv.org/abs/2604.19516 | https://github.com/Wu-beining/MAGEO; https://huggingface.co/datasets/WuBeiNing/MSME-GEO-Bench |
 | P004 | CC-GSEO-Bench | https://arxiv.org/abs/2509.05607 | https://github.com/qychen2001/CC-GSEO-Bench |
 | P007 | SAGEO Arena | https://arxiv.org/abs/2602.12187 | not verified |
 | P008 | Diagnosing and Repairing Citation Failures in GEO | https://arxiv.org/abs/2603.09296 | not verified |

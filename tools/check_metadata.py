@@ -30,6 +30,15 @@ REQUIRED = {
         "value_rating",
         "maintenance_priority",
     ],
+    "data/benchmarks.csv": [
+        "id",
+        "name",
+        "year",
+        "url",
+        "scope",
+        "metrics",
+        "status",
+    ],
     "data/industry_sources.csv": [
         "id",
         "title",
@@ -113,4 +122,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-
