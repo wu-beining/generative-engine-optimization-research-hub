@@ -45,6 +45,8 @@ SAGEO Arena argued that realistic evaluation must include retrieval and rerankin
 
 AgentGEO and AgenticGEO then moved toward diagnostic and self-evolving agentic systems. MAGEO added another important step: reusable strategy learning, where successful editing patterns are accumulated as engine-specific skills through multi-agent planning, editing, evaluation, memory, and fidelity gates. The direction is promising, but it needs cost, robustness, and safety validation.
 
+E-GEO added a useful vertical axis: e-commerce. Shopping and product recommendation have different constraints from informational web search: product feeds, reviews, prices, availability, comparison prompts, and direct conversion all matter. Product GEO should therefore be evaluated separately from generic article/content GEO.
+
 ## Core Tensions
 
 ### 1. Visibility vs Utility
@@ -100,8 +102,9 @@ For a serious GEO program, prioritize this order:
 4. **Extractability**: add summaries, tables, FAQs, definitions, quoted facts, and schema aligned with visible content.
 5. **Query clusters**: optimize for related intents and follow-ups, not a single keyword.
 6. **Citation design**: make each important claim easy to quote and attribute.
-7. **Full-pipeline eval**: test retrieval, reranking, generation, citation, and causal impact.
-8. **Safety**: detect prompt injection, fabricated authority, hidden text, and adversarial passages.
+7. **Monitoring and tooling**: track prompts, models, brand mentions, citation quality, and trend changes over time.
+8. **Full-pipeline eval**: test retrieval, reranking, generation, citation, and causal impact.
+9. **Safety**: detect prompt injection, fabricated authority, hidden text, and adversarial passages.
 
 ## What Is Still Open
 
@@ -112,6 +115,7 @@ Important unresolved questions:
 - Can a method improve citation while preserving retrieval rank and answer utility?
 - How should source influence be measured without relying too heavily on LLM judges?
 - Can reusable GEO skills transfer across engines and scenarios without overfitting to a specific benchmark?
+- Which product-feed, review, price, availability, and schema signals matter most in e-commerce GEO?
 - How should GEO work in multilingual settings, especially Chinese-English content?
 - What is the boundary between legitimate optimization and manipulative content poisoning?
 - How will product feeds and agentic commerce change organic AI recommendations?

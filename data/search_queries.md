@@ -20,6 +20,8 @@ Use these for biweekly or monthly refreshes. Record newly found items in `data/p
 "AutoGEO" "Generative Search Engines"
 "MAGEO" "Generative Engine Optimization"
 "From Experience to Skill" "Generative Engine Optimization"
+"E-GEO" "Generative Engine Optimization" "E-Commerce"
+"arXiv:2511.20867" "E-GEO"
 ```
 
 ## Adjacent Technical Terms
@@ -32,6 +34,8 @@ Use these for biweekly or monthly refreshes. Record newly found items in `data/p
 "AI search" "citation patterns" "benchmark"
 "generative engine marketing" benchmark
 "ad-injected response" "LLM"
+"reasoning-intensive retrieval" "benchmark" "AI search"
+"LLM reranking" "ChatGPT" "search"
 ```
 
 ## GitHub

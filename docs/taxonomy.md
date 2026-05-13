@@ -39,6 +39,7 @@ GEO 的可优化点可以分成七层：
 | O7 Security / Adversarial | GEO 如何变成操纵或投毒 | Adversarial SEO, Ranking Manipulation, GASLITE |
 | O8 RAG Evidence Quality | LLM 选择哪些证据，如何处理冲突 | ConflictingQA, ConflictBank |
 | O9 Search-LLM Architecture | LLM 与搜索系统怎样融合 | When Search Engine Services meet LLMs |
+| O10 Tooling / Operations | 如何把 GEO 评估、监控、审计和内容工作流产品化 | Gego, GEO Optimizer Skill, GTM Engineer Skills |
 
 ## 4. 判断一篇 GEO 论文是否真有价值
 
@@ -58,4 +59,3 @@ GEO 的可优化点可以分成七层：
 - 不区分 citation、mention、word overlap、traffic、conversion。
 - 没有对照传统 SEO / retrieval rank / context position。
 - 只做营销式“90天计划”，但无实验或平台官方依据。
-

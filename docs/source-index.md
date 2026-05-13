@@ -16,6 +16,7 @@ This index lists the primary sources used to seed the repository. Prefer these l
 | P008 | Diagnosing and Repairing Citation Failures in GEO | https://arxiv.org/abs/2603.09296 | not verified |
 | P009 | AgenticGEO | https://arxiv.org/abs/2603.20213 | https://github.com/AIcling/agentic_geo |
 | P019 | From Experience to Skill: Multi-Agent GEO via Reusable Strategy Learning | https://arxiv.org/abs/2604.19516 | https://github.com/Wu-beining/MAGEO |
+| P020 | E-GEO: A Testbed for GEO in E-Commerce | https://arxiv.org/abs/2511.20867 | https://github.com/psbagga17/E-GEO |
 
 ## Adjacent Papers
 
@@ -28,6 +29,10 @@ This index lists the primary sources used to seed the repository. Prefer these l
 | P016 | What Evidence Do Language Models Find Convincing? | https://arxiv.org/abs/2402.11782 | evidence preference in RAG |
 | P017 | ConflictBank | https://arxiv.org/abs/2408.12076 | knowledge conflict benchmark |
 | P018 | When Search Engine Services meet LLMs | https://arxiv.org/abs/2407.00128 | Search4LLM / LLM4Search background |
+| P021 | BRIGHT | https://arxiv.org/abs/2407.12883 | reasoning-intensive retrieval benchmark |
+| P022 | Large Language Models for Information Retrieval | https://arxiv.org/abs/2308.07107 | LLM-for-IR survey |
+| P023 | Search-o1 | https://arxiv.org/abs/2501.05366 | agentic search-enhanced reasoning |
+| P024 | Is ChatGPT Good at Search? | https://arxiv.org/abs/2304.09542 | LLM reranking background |
 
 ## Security and Adversarial Work
 
@@ -47,3 +52,4 @@ This index lists the primary sources used to seed the repository. Prefer these l
 | I003 | ChatGPT merchants / product discovery | https://chatgpt.com/merchants/ | high |
 | I006 | GitHub topic: generative-engine-optimization | https://github.com/topics/generative-engine-optimization | medium |
 | I007 | Awesome Generative Engine Optimization | https://github.com/amplifying-ai/awesome-generative-engine-optimization | medium |
+| I009 | Awesome GEO | https://github.com/luka2chat/awesome-geo | medium |

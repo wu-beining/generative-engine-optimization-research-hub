@@ -10,6 +10,12 @@
 | Medium | arXiv preprint、技术报告、新闻采访、社区维护的高质量索引 | CC-GSEO-Bench, Guardian analysis, awesome list |
 | Low | 厂商营销页、无实验博客、单次 prompt 截图、未注明方法的数据 | Agency case study, vendor ranking-factor claims |
 
+GitHub tool repositories are not automatically research evidence. Treat them as:
+
+- `High` only when they are official code for a peer-reviewed paper or benchmark.
+- `Medium` when they are well-scoped tools with clear implementation, tests, docs, and reproducible inputs/outputs.
+- `Low` when they mainly present claims, demos, screenshots, or vendor-style scoring without transparent methodology.
+
 ## Novelty Score
 
 | Score | Meaning |
@@ -46,4 +52,3 @@
 3. `dataset_url` 放官方数据或模型集合。
 4. `industry_sources.csv` 可额外记录 OpenReview / official venue 页面，用于确认接收状态。
 5. 不为 Hugging Face paper mirror、ResearchGate mirror、AI 摘要站重复建论文条目。
-

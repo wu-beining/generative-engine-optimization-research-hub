@@ -84,6 +84,16 @@
 
 判断：必须跟踪。它是 2026 年 GEO 从“改写策略”走向“经验累积和策略复用”的关键论文。
 
+### E-GEO
+
+价值：E-GEO 把 GEO 拉到电商垂直场景，关注产品查询、产品描述改写、商品排序和购物推荐式可见度。相比通用网页 GEO，它更接近 AI shopping、product feed 和 agentic commerce 的真实商业入口。
+
+重合：与 AutoGEO 的 e-commerce dataset 和 C-SEO Bench 的 product recommendation 任务有明显交集。它的独特价值在于把电商当作主场景，而不是通用 benchmark 的一个子任务。
+
+边界：README 和衍生项目对“排名提升”的表达更强，使用时要回到论文和实验设置，不要把 prompt/meta-optimization 的离线收益直接等同于真实 ChatGPT/Google/Perplexity 购物推荐收益。
+
+判断：必须跟踪。未来做 product GEO、AI shopping visibility 或 agentic commerce 时，它应与 AutoGEO、C-SEO Bench 和 OpenAI merchant feed 文档一起读。
+
 ## Tier 2: Important Adjacent Work
 
 ### Adversarial SEO for LLMs / Ranking Manipulation / GASLITE
@@ -111,6 +121,32 @@
 价值：GEO 的商业化相邻方向。它研究广告如何嵌入生成答案，并评估用户满意度、自然度、CTR 等。
 
 判断：值得观察，但必须与 organic GEO 分开。广告插入不是“自然引用优化”。
+
+## Tool and List Repositories
+
+### GEO Optimizer Skill
+
+价值：这是目前读到的开源技术审计工具中覆盖面较宽的一个：robots、AI crawler、llms.txt、schema、meta、AI discovery endpoint、prompt injection、negative signals、citability、CI/MCP 都有涉及。它适合补我们仓库的“工程审计 checklist”和工具生态。
+
+边界：工具评分权重和“47 methods”属于工具作者实现，不能直接当学术结论。适合 track，但需要抽样跑站点验证。
+
+### Gego
+
+价值：Gego 做 multi-LLM prompt scheduling 和 keyword/brand mention analytics，能补齐 GEO monitoring 层。它关心“哪些 prompt/LLM 更容易提到品牌或关键词”，非常适合长期追踪 share-of-voice。
+
+边界：mention 不等于 citation，也不等于 faithful credit 或 causal impact。它更像 monitoring substrate，不是优化方法本身。
+
+### GTM Engineer Skills and eGEOagents
+
+价值：两者都把 GEO 操作流程 agent 化。前者覆盖品牌研究、关键词、Reddit、prompt target、内容规划、写作、审计和页面落地；后者偏 Claude Code 中的一键 E-GEO 工作流。
+
+边界：它们是执行框架，不是评估基准。使用时应把输出纳入 C-SEO/E-GEO/CC-GSEO 风格评估，而不是信任“优化后一定排名上升”。
+
+### Awesome GEO Lists
+
+价值：`luka2chat/awesome-geo` 作为中英双语 list，补出了 E-GEO、BRIGHT、LLM4IR survey、Search-o1、ChatGPT reranking 等背景资料。它和 `amplifying-ai/awesome-generative-engine-optimization` 都适合做 discovery source。
+
+边界：list 型仓库混合了论文、工具、营销文章、厂商数据和未验证 case study。进入本仓库时必须二次分层：核心论文、背景论文、工具、产业资料分别处理。
 
 ## Tier 3: Watch / Background
 
