@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: GEO Research Hub
+message: "If you use this curated repository, please cite it as a maintained research resource."
+type: dataset
+authors:
+  - name: GEO Research Hub contributors
+year: 2026
+license: CC-BY-4.0
+keywords:
+  - generative engine optimization
+  - GEO
+  - AI search
+  - conversational SEO
+  - generative search
+
